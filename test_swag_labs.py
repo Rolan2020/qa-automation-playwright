@@ -34,7 +34,7 @@ def test_inventory_page(page: Page):
 >pytest --headed --base-url https://www.saucedemo.com/ --browser webkit --browser chromium --slowmo 3000
 como ejecutar solo chrome y no chromium -> --browser-channel chrome
 
-Verificar la trasabilidad de los test. 
+Verificar la trasabilidad de los test
 tener un logs de las ejecuciones para ver el paso a paso
 trace de cada ejecucion --tracing on
 trace solo cuando algo falla -- tracing retain-on-failure
